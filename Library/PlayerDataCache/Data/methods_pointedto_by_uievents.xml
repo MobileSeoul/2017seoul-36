@@ -1,0 +1,53 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="ChangeScenes">
+			<method name="ToLogin"/>
+			<method name="ChangeGameScene"/>
+			<method name="ToMain"/>
+			<method name="ToMain"/>
+			<method name="LoginToJoin"/>
+			<method name="ToLogin"/>
+			<method name="ToMain"/>
+		</type>
+		<type fullname="capture">
+			<method name="MainCameraCapture"/>
+			<method name="PainterCapture"/>
+		</type>
+		<type fullname="MenuPainter">
+			<method name="ColorButton"/>
+			<method name="Destroy"/>
+			<method name="ScalePen"/>
+			<method name="ColorButton"/>
+			<method name="ColorButton"/>
+			<method name="ScalePen"/>
+			<method name="ColorButton"/>
+			<method name="ClickButton"/>
+			<method name="ColorButton"/>
+			<method name="ColorButton"/>
+			<method name="ScalePen"/>
+			<method name="ColorButton"/>
+			<method name="ScalePen"/>
+			<method name="ColorButton"/>
+			<method name="ColorButton"/>
+			<method name="ClickButton"/>
+			<method name="ColorButton"/>
+			<method name="ScalePen"/>
+			<method name="ClosePallete"/>
+			<method name="ClosePallete"/>
+			<method name="ClosePallete"/>
+		</type>
+		<type fullname="LoginManager">
+			<method name="OnLoginButtonClick"/>
+		</type>
+		<type fullname="IdCheck">
+			<method name="OnIdCheckButtonClick"/>
+			<method name="ChangeAllowState"/>
+		</type>
+		<type fullname="JoinManager">
+			<method name="OnJoinOkButtonClick"/>
+		</type>
+		<type fullname="WorkInInfo">
+			<method name="LogoutClick"/>
+		</type>
+	</assembly>
+</linker>
